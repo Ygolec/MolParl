@@ -1,65 +1,84 @@
 <template>
-  <header class="sticky s top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm border-b dark:border-b-0" id="header">
-    <div class="py-3 px-3 mx-auto w-full md:flex md:justify-between max-w-6xl md:px-4">
+  <header
+      class="sticky s top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm border-b dark:border-b-0"
+      id="header">
+    <div class="py-0 px-0 mx-auto w-full md:flex md:justify-between max-w-6xl md:px-4">
       <div class="flex justify-between">
         <a class="flex items-center" href="/">
           <Logo/>
         </a>
       </div>
-    </div>
-    <nav class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-screen md:h-auto"
-         aria-label="Main navigation">
-      <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            О нас
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-             href="/">
-            Состав
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            Проекты
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            Инциативы
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            Контакты
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            Конкурс
-          </a>
-        </li>
-        <li>
-          <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="/">
-            Новости
-          </a>
-        </li>
-        <li class="md:hidden">
-          <a class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out" href="https://vk.com/mpkrk24">
-            VK
-          </a>
-        </li>
-      </ul>
-      <div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
-        <div class="hidden items-center md:flex">
-          <a href="https://vk.com/mpkrk24" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5" aria-label="Astrowind Github">
-            <img src="/VK_Compact_Logo.png" class="w-5 h-5" />
-          </a>
+
+      <nav class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-screen md:h-auto"
+           aria-label="Main navigation">
+        <ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              О нас
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Состав
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Проекты
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Инциативы
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Контакты
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Конкурс
+            </a>
+          </li>
+          <li>
+            <a class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="/">
+              Новости
+            </a>
+          </li>
+          <li class="md:hidden">
+            <a class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+               href="https://vk.com/mpkrk24">
+              VK
+            </a>
+          </li>
+        </ul>
+        <div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
+          <div class="hidden items-center md:flex">
+            <a href="https://vk.com/mpkrk24"
+               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+               aria-label="Astrowind VK">
+              <img src="/VK_BW_Compact_Logo.png" class="w-5 h-5"/>
+            </a>
+          </div>
+          <div class="hidden items-center md:flex">
+            <a href="https://vk.com/mpkrk24"
+               class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+               aria-label="Astrowind Telegram">
+              <img src="/telegram.png" class="w-5 h-5"/>
+            </a>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 </template>
 
